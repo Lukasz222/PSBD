@@ -1,4 +1,4 @@
-System swoim zakresem obejmuje sieć komisów samochodowych na obszarze jednego województwa. Głównym zadaniem jest przechowywanie oraz przetwarzanie danych o samochodach w których posiadaniu znajduje się komis. Do każdego samochodu są przyporządkowane 2 rodzaje informacji - stricte techniczne cechy pojazdu oraz informacje służące do zarządzania nim (np. status, jazdy próbne). Powiązane z tym jest przechowywanie oraz przetwarzanie umów z nimi związanymi (np. umowa kupna/sprzedaży, ?? OC, przegląd techniczny ??). Dodatkowo system ma też za zadanie przechowywanie oraz przetwarzanie informacji o placówkach komisów należących do tej sieci.
+﻿System swoim zakresem obejmuje sieć komisów samochodowych na obszarze jednego województwa. Głównym zadaniem jest przechowywanie oraz przetwarzanie danych o samochodach w których posiadaniu znajduje się komis. Do każdego samochodu są przyporządkowane 2 rodzaje informacji - stricte techniczne cechy pojazdu oraz informacje służące do zarządzania nim (np. status, jazdy próbne). Powiązane z tym jest przechowywanie wszelkich dokumentów pojazdu (dowód rejestracyjny, karta pojazdu, polisa OC) oraz zawieranie związanych z nimi umów kupna/sprzedaży. Dodatkowo system ma też za zadanie przechowywanie oraz przetwarzanie informacji o placówkach komisów należących do tej sieci.
 
 Kategorie potencjalnych użytkowników i ich wymagania funkcjonalne:
 	Klient:
@@ -12,8 +12,11 @@ Kategorie potencjalnych użytkowników i ich wymagania funkcjonalne:
 		- przeglądanie i dodawanie umów (tylko dla samochodów przypisanych do placówki pracownika)
 		- modyfikacja grafiku jazd próbnych samochodu (tylko dla samochodów przypisanych do placówki pracownika)
 		- transfer samochodu do innej placówki (tylko dla samochodów przypisanych do placówki pracownika)
+		- prowadzenie kartoteki klientów
+		- wystawianie i przeglądanie faktur
 
 	Dyrektor
 		- to co Klient
 		- dodawanie oraz edycja placówek (np. status, właściciel)
-		- przeglądanie umów
+		- przeglądanie umów i faktur
+		- wgląd w kartotekę klientów
