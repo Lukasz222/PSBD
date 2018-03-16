@@ -1,0 +1,17 @@
+Obiekty:
+Samochod
+	Marka(Peugeot, Toyota)
+	Silnik
+		Pojemnosc(1.6, 2.0)
+		Rodzaj(Diesel, Benzyna, Benzyna+LPG, Elektr)
+		Moc(124KM, 93KM)
+	Swiatla(Led, przeciwmglowe)
+	Nadwozie(Kombi, Sedan)
+	Drzwi(2/3, 4/5)
+	Skrzynia(Automatyczna, Półautomatyczna, Manualna)
+	Naped(Przednie, tylne, 4x4)
+	DodatkoweBezpieczenstwo(ABS, ESP, PoduszkaKierowcy)
+	DodatkoweKomfort(el szyby, podgrzewane siedzen, wspomaganie kierownicy)
+	DodatkoweMultimedia(CD, bluetooth, AUX)
+	Kolor(Czarny, Biały)
+	Pochodzenie(Niemcy, Francja)
