@@ -1,4 +1,4 @@
-Obiekty:
+﻿Obiekty:
 Samochod
 	Marka(Peugeot, Toyota)
 	Silnik
@@ -15,3 +15,13 @@ Samochod
 	DodatkoweMultimedia(CD, bluetooth, AUX)
 	Kolor(Czarny, Biały)
 	Pochodzenie(Niemcy, Francja)
+Placowka
+	Miasto (Szczecin, Koszalin, Gryfice)
+Umowa
+	RodzajUmowy (UmowaKomisu, UmowaSprzedazy)
+Spotkanie
+	RodzajSpotkania (Ogledziny, JazdaProbna, Sprzedaz, Przechowanie)
+DokumentySamochodu
+Pracownik
+Klient
+
