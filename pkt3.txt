@@ -2,7 +2,6 @@ Obiekty:
 Samochod
 	Marka(Peugeot, Toyota)
 	Silnik
-		Pojemnosc(1.6, 2.0)
 		Rodzaj(Diesel, Benzyna, Benzyna+LPG, Elektr)
 		Moc(124KM, 93KM)
 	Swiatla(Led, przeciwmglowe)
@@ -15,3 +14,20 @@ Samochod
 	DodatkoweMultimedia(CD, bluetooth, AUX)
 	Kolor(Czarny, Biały)
 	Pochodzenie(Niemcy, Francja)
+
+Samochod i marka	(1;1)
+Samochod i silnik	(0;1)
+Samochod i swiatla	(0;*)
+Samochod i nadwozie	(1;1)
+Samochod i drzwi	(1;1)
+Samochod i skrzynia	(0;1)
+Samochod i naped	(1;1)
+Samochod i bezpiecz	(0;*)
+Samochod i komfort	(0;*)
+Samochod i media	(0;*)
+Samochod i kolor	(1;1)
+Samochod i pochodzenie	(0;1)
+
+Silnik i rodzaj		(1;1)
+Silnik i moc		(1;1)
+
