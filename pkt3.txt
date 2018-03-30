@@ -1,0 +1,46 @@
+﻿Obiekty:
+Samochod
+	Marka(Peugeot, Toyota)
+	RodzajSilnika(Diesel, Benzyna, Benzyna+LPG, Elektr)
+	Swiatla(Led, przeciwmglowe)
+	Nadwozie(Kombi, Sedan)
+	Skrzynia(Automatyczna, Półautomatyczna, Manualna)
+	Naped(Przednie, tylne, 4x4)
+	ElementWyposazenia (ABS, ESP, PoduszkaKierowcy, el szyby, podgrzewane siedzen, wspomaganie kierownicy, CD, bluetooth, AUX)
+	Kolor(Czarny, Biały)
+	Pochodzenie(Niemcy, Francja)
+	KartaPojazdu
+	KsiazkaSerwisowa
+TypWyposazenia (Bezpieczenstwo, Komfort, Multimedia)
+Placowka
+Miasto (Szczecin, Koszalin, Gryfice)
+UmowaKomisu
+UmowaSprzedazy
+Spotkanie
+RodzajSpotkania (Ogledziny, JazdaProbna, Sprzedaz, Przechowanie)
+Pracownik
+Klient
+
+Relacje:
+Marka			Samochod	(1;1)
+RodzajSilnika		Samochod	(1;1)
+Swiatla			Samochod	(1;1)
+Nadwozie		Samochod	(1;1)
+Skrzynia		Samochod	(1;1)
+Naped			Samochod	(1;1)
+ElementWyposazenia	Samochod	(0;*)
+Kolor			Samochod	(1;1)
+Pochodzenie		Samochod	(1;1)
+Miasto			Placowka	(1;1)
+UmowaKomisu		Samochod	(1;1)
+UmowaSprzedazy		Samochod	(1;1)
+RodzajSpotkania		Spotkanie	(1;1)
+KartaPojazdu		Samochod	(1;1)
+KsiazkaSerwiskowa	Samochod	(1;1)
+Placowka		Pracownik	(1;*)
+Samochod		Spotkanie	(1;*)
+Pracownik		Spotkanie	(1;*)
+Klient			Spotkanie	(1;1)
+Samochod		Placowka	(0;*)
+UmowaKomisu		Spotkanie	(0;1)
+UmowaSprzedazy		Spotkanie	(0;1)

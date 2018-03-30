@@ -1,19 +1,19 @@
-System swoim zakresem obejmuje sieć komisów samochodowych na obszarze jednego województwa. Głównym zadaniem jest przechowywanie oraz przetwarzanie danych o samochodach w których posiadaniu znajduje się komis. Do każdego samochodu są przyporządkowane 2 rodzaje informacji - stricte techniczne cechy pojazdu oraz informacje służące do zarządzania nim (np. status, jazdy próbne). Powiązane z tym jest przechowywanie oraz przetwarzanie umów z nimi związanymi (np. umowa kupna/sprzedaży, ?? OC, przegląd techniczny ??). Dodatkowo system ma też za zadanie przechowywanie oraz przetwarzanie informacji o placówkach komisów należących do tej sieci.
+﻿System swoim zakresem obejmuje sieć komisów samochodowych na obszarze jednego województwa. Działalność komisu opiera się na przechowywaniu samochodów osobowych należących do osób fizycznych po zawarciu z nimi umowy komisu. Komis zobowiązuje się wówczas do sprzedaży ruchomości osobie trzeciej poprzez zawarcie z nią umowy sprzedaży. W ten sposób samochód zmienia swojego właściciela, a komis pobiera prowizję za sprzedaż pojazdu. Kolejnym zadaniem komisu jest przetwarzanie danych o samochodach w których posiadaniu się znajduje. Do każdego samochodu są przyporządkowane 2 rodzaje informacji - stricte techniczne cechy pojazdu oraz informacje służące do zarządzania nim (np. status, jazdy próbne). Powiązane z tym jest przechowywanie wszelkich dokumentów pojazdu (dowód rejestracyjny, karta pojazdu, polisa OC). Dodatkowo system ma też za zadanie przechowywanie oraz przetwarzanie informacji o placówkach komisów należących do tej sieci.
+1.1.	Kategorie potencjalnych użytkowników systemu i ich wymagania funkcjonalne
+Klient:
+	- przeglądanie i wyszukiwanie samochodów według dowolnych 		cech samochodu, a także placówki w jakiej się znajduje
+	- rejestracja na spotkanie w sprawie samochodu (oględziny / jazda próbna / kupno / oddanie w przechowanie)
+	- przeglądanie i wyszukiwanie placówek
 
-Kategorie potencjalnych użytkowników i ich wymagania funkcjonalne:
-	Klient:
-		- przeglądanie i wyszukiwanie samochodów według dowolnych cech samochodu, a także placówki w jakiej się znajduje
-		- sprawdzenie grafiku jazd próbnych dla danego samochodu (jeśli jazda próbna jest możliwa)
-		- przeglądanie i wyszukiwanie placówek
+Pracownik:
+	- to co Klient
+	- dodawanie samochodu oraz ich edycja (parametrów, statusu itp.) 		(tylko dla samochodów przypisanych do placówki 			pracownika)
+	- przeglądanie i dodawanie umów (tylko dla samochodów 			przypisanych do placówki pracownika)
+	- modyfikacja grafiku spotkań w sprawie samochodu (oględziny / jazda próbna / sprzedaż / wzięcie w przechowanie), (tylko dla 			samochodów przypisanych do placówki pracownika)
+	- transfer samochodu do innej placówki (tylko dla samochodów 		przypisanych do placówki pracownika)
 
-	Pracownik:
-		- to co Klient
-		- dodawanie samochodu oraz ich edycja (parametrów, statusu itp.) (tylko dla samochodów przypisanych do placówki pracownika)
-		- przeglądanie i dodawanie umów (tylko dla samochodów przypisanych do placówki pracownika)
-		- modyfikacja grafiku jazd próbnych samochodu (tylko dla samochodów przypisanych do placówki pracownika)
-		- transfer samochodu do innej placówki (tylko dla samochodów przypisanych do placówki pracownika)
-
-	Dyrektor
-		- to co Klient
-		- dodawanie oraz edycja placówek (np. status, właściciel)
-		- przeglądanie umów
+Dyrektor
+	- to co Klient
+	- dodawanie oraz edycja placówek (np. status, właściciel)
+- przeglądanie umów
+- ewidencja pracowników
