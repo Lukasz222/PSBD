@@ -1,2 +1,0 @@
-Projekt realizowany jest dla systemu zarządzania i obsługi sieci komisów samochodowych.
-Składa się z dwóch etapów. Celem pierwszego etapu projektu jest opracowanie modelu semantycznego danych, a drugi etap to opracowanie mechanizmów programowania serwera (funkcji, procedur i wyzwalaczy).
